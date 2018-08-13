@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {CE39C884-6D2A-43BE-B62D-CFC16EE941D2}
+database: master
+path: /sitecore/content/Corlate/University/Featured Items/Banner Carousel Slides/Largest and Beautiful University
+parent: {8382D099-6D4A-4FB0-8B34-F2BDAA6EFC68}
+name: Largest and Beautiful University
+master: {00000000-0000-0000-0000-000000000000}
+template: {F7B65B97-3B2A-4A21-9061-5C1DD72D37C5}
+templatekey: Banner Carousel Slide
+created: 20180811T093554Z
+
+----field----
+field: {ADBA5E6B-38D3-4527-BBF1-C150239A28AB}
+name: Image
+key: image
+content-length: 157
+
+<image mediapath="" alt="2" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="" mediaid="{5867D2ED-BCA5-4ED5-88C0-5680D82EB507}" />
+----version----
+language: en
+version: 1
+revision: f1e6735e-72ff-4e54-a3e4-5bf0573d9565
+
+----field----
+field: {510273CD-526A-432E-9259-A03FF0047D73}
+name: Title
+key: title
+content-length: 30
+
+Largest & Beautiful University
+----field----
+field: {E32926D6-D635-4C95-AA57-6DC4EECD3F5E}
+name: Description
+key: description
+content-length: 131
+
+<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180811T093554Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f1e6735e-72ff-4e54-a3e4-5bf0573d9565
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180811T093633Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

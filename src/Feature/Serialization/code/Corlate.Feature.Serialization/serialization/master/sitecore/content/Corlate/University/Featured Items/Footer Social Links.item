@@ -1,0 +1,45 @@
+----item----
+version: 1
+id: {20E19CE3-7565-4DBD-AC33-CC15FE20DD2E}
+database: master
+path: /sitecore/content/Corlate/University/Featured Items/Footer Social Links
+parent: {CA4C8A63-C0CB-4D47-BB6A-1C046E469E79}
+name: Footer Social Links
+master: {00000000-0000-0000-0000-000000000000}
+template: {2A8F3260-7BE3-405F-8F8B-F5E9345C6714}
+templatekey: Footer Social Links Folder
+created: 20180802T110418Z
+
+----version----
+language: en
+version: 1
+revision: 50c6d0d1-79be-43b4-9ddd-733a5d99bcd9
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180802T110420Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+50c6d0d1-79be-43b4-9ddd-733a5d99bcd9
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180802T110420Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

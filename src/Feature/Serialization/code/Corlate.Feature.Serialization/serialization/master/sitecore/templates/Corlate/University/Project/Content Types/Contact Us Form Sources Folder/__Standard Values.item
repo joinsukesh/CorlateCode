@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {492B9089-E6B9-4A0F-869E-6DB0CF436CD6}
+database: master
+path: /sitecore/templates/Corlate/University/Project/Content Types/Contact Us Form Sources Folder/__Standard Values
+parent: {8C1D808F-721D-4C9F-8642-1F00F2C65CFA}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {8C1D808F-721D-4C9F-8642-1F00F2C65CFA}
+templatekey: Contact Us Form Sources Folder
+created: 20180813T042221Z
+
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 77
+
+{8C1D808F-721D-4C9F-8642-1F00F2C65CFA}|{DDC46D14-1B08-4B49-AB51-B478A70290AC}
+----version----
+language: en
+version: 1
+revision: a2322bc7-146a-4367-9331-18cd8a6182d2
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180813T042221Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a2322bc7-146a-4367-9331-18cd8a6182d2
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180813T042540Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

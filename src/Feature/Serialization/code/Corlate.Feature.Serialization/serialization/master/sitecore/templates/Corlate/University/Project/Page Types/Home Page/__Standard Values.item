@@ -1,0 +1,73 @@
+----item----
+version: 1
+id: {E3D19BB3-1EFF-482C-B7AD-B67B75AD8995}
+database: master
+path: /sitecore/templates/Corlate/University/Project/Page Types/Home Page/__Standard Values
+parent: {33EC6722-74A6-4E8F-8666-3BF3BF8B4E91}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {33EC6722-74A6-4E8F-8666-3BF3BF8B4E91}
+templatekey: Home Page
+created: 20171122T155433Z
+
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 38
+
+{F828B068-D5D8-4B21-A575-2BFF2F21B902}
+----version----
+language: en
+version: 1
+revision: 72452b97-8e04-4622-8889-b9a13acf61aa
+
+----field----
+field: {02D564A0-6726-4545-BC48-A0BF51739ACD}
+name: Title
+key: title
+content-length: 14
+
+Corlate : Home
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171122T155433Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+72452b97-8e04-4622-8889-b9a13acf61aa
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171210T183447Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

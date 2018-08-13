@@ -1,0 +1,45 @@
+----item----
+version: 1
+id: {F7102046-C2C7-451A-A9FF-0BEFB00E4B4A}
+database: master
+path: /sitecore/content/Corlate/University/Configurations/Identities
+parent: {25200BE1-32C1-4F1E-9A39-44412536DA2B}
+name: Identities
+master: {00000000-0000-0000-0000-000000000000}
+template: {59F5E483-A1BC-4013-BA63-0075EA2E6E32}
+templatekey: Identities Folder
+created: 20171211T094058Z
+
+----version----
+language: en
+version: 1
+revision: d5eef07d-2e39-46e0-9185-78e482319a39
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171211T094059Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d5eef07d-2e39-46e0-9185-78e482319a39
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171211T094059Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

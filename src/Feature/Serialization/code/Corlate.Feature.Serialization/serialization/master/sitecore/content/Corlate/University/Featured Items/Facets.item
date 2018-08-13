@@ -1,0 +1,45 @@
+----item----
+version: 1
+id: {FC591FB7-D7DE-4EB8-9008-0BD236C07C5E}
+database: master
+path: /sitecore/content/Corlate/University/Featured Items/Facets
+parent: {CA4C8A63-C0CB-4D47-BB6A-1C046E469E79}
+name: Facets
+master: {00000000-0000-0000-0000-000000000000}
+template: {AB6FAC84-6472-4CAD-82EF-6ADF9F57AA5A}
+templatekey: Facets Folder
+created: 20180811T141858Z
+
+----version----
+language: en
+version: 1
+revision: 4e75ff0f-f0e1-4007-8d6d-e49df7356a40
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180811T141858Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+4e75ff0f-f0e1-4007-8d6d-e49df7356a40
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180811T141858Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

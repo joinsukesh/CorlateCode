@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {ADA7C6DF-F3A2-449A-BFC9-20436A0BE197}
+database: master
+path: /sitecore/content/Corlate/University/Featured Items/Timetable Events/Introduction To Matrix/Advanced Matrix
+parent: {C28FE805-8647-4314-98E6-EA524DE991CD}
+name: Advanced Matrix
+master: {00000000-0000-0000-0000-000000000000}
+template: {EF6956D6-3978-47C9-A8A9-E32DFC84694A}
+templatekey: Timetable Event
+created: 20180804T071616Z
+
+----version----
+language: en
+version: 1
+revision: ea4ee792-c829-4fe8-81e5-ec57e2e14b76
+
+----field----
+field: {24FE577A-0E10-4F40-9903-E67DD7626183}
+name: Course Title
+key: course title
+content-length: 15
+
+Advanced Matrix
+----field----
+field: {EF96E07C-D444-42E2-9C23-B7628290E583}
+name: Instructor
+key: instructor
+content-length: 38
+
+{4580866D-15F3-4C9F-85BD-93EC360CA929}
+----field----
+field: {120E66A4-E9D9-406F-B010-B17D44ACF9F1}
+name: Timing
+key: timing
+content-length: 14
+
+15:00 to 16:00
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180804T071616Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ea4ee792-c829-4fe8-81e5-ec57e2e14b76
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180804T071631Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

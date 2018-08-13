@@ -1,0 +1,52 @@
+----item----
+version: 1
+id: {6C2172C0-E622-4ED5-B216-30956451E928}
+database: master
+path: /sitecore/content/Corlate/University/Datasources/Image Gallery Sources/Demo
+parent: {0D6B0372-FB10-441A-98C4-8FA4FF4AEDAC}
+name: Demo
+master: {00000000-0000-0000-0000-000000000000}
+template: {CAAA5AE5-5529-4F47-98E7-D8A8880F718A}
+templatekey: Image Gallery Source
+created: 20180802T052901Z
+
+----version----
+language: en
+version: 1
+revision: 54f7e475-56c8-465e-9932-1450b9f4a9c7
+
+----field----
+field: {AC960183-2BFC-4568-A54E-7C142914AF81}
+name: Gallery Items
+key: gallery items
+content-length: 311
+
+{04C346C4-9EC0-4693-A03E-A03D6D9A90F5}|{446EB683-D829-406F-895D-330966E25B10}|{F63A7E08-A65F-4C90-9777-4F5BC276DABE}|{A31DE406-755F-442F-A788-4B126E701039}|{E61973EC-433B-480D-983B-D0E72D78381A}|{F08D85EC-B994-4ABB-AF01-58886101F3BA}|{87D7CBA4-AA20-44DB-8D93-916FC69B22F1}|{E5F715EF-B46B-4F83-8FC1-A748B9CB01CD}
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180802T052902Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+54f7e475-56c8-465e-9932-1450b9f4a9c7
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180802T052919Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

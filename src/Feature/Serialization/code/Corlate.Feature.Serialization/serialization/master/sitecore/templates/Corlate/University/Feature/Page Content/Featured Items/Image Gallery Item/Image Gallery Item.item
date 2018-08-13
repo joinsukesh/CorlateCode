@@ -1,0 +1,52 @@
+----item----
+version: 1
+id: {9C8D1427-53D7-4636-9FF6-D583CA1B66FC}
+database: master
+path: /sitecore/templates/Corlate/University/Feature/Page Content/Featured Items/Image Gallery Item/Image Gallery Item
+parent: {399A23B4-473F-4930-B83E-AB506EB94806}
+name: Image Gallery Item
+master: {00000000-0000-0000-0000-000000000000}
+template: {E269FBB5-3750-427A-9149-7AA950B49301}
+templatekey: Template section
+created: 20180802T045714Z
+
+----version----
+language: en
+version: 1
+revision: 6f9d2a7a-c175-4d63-a5ad-18b09aed0249
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180802T045714Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+6f9d2a7a-c175-4d63-a5ad-18b09aed0249
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180802T045755Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

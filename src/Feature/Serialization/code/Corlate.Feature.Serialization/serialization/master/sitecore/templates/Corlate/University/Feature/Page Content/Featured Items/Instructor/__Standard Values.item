@@ -1,0 +1,80 @@
+----item----
+version: 1
+id: {626C9B2A-D835-4C26-90A9-B77892B46B3A}
+database: master
+path: /sitecore/templates/Corlate/University/Feature/Page Content/Featured Items/Instructor/__Standard Values
+parent: {F62C162E-4C7E-4C20-B9D1-43ABA9E31E25}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {F62C162E-4C7E-4C20-B9D1-43ABA9E31E25}
+templatekey: Instructor
+created: 20180804T065052Z
+
+----version----
+language: en
+version: 1
+revision: 0fd0d9fb-a15e-4036-add7-0782f9707b51
+
+----field----
+field: {63EB36DA-EA74-4F2A-A263-5BBB7E5B2576}
+name: InstructorName
+key: instructorname
+content-length: 5
+
+$name
+----field----
+field: {5059F5EC-BB4D-4D7C-9F08-E205207059BF}
+name: Designation
+key: designation
+content-length: 7
+
+Teacher
+----field----
+field: {12C57CE1-2ECE-4E8C-B80C-02B25D09F091}
+name: Is Active
+key: is active
+content-length: 1
+
+1
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180804T065053Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+0fd0d9fb-a15e-4036-add7-0782f9707b51
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180804T065937Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

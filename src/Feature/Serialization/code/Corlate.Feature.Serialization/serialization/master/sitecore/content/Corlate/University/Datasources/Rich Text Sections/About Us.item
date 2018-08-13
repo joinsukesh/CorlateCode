@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {F04D83B8-5BC2-44FC-B54E-EA7485F0BD84}
+database: master
+path: /sitecore/content/Corlate/University/Datasources/Rich Text Sections/About Us
+parent: {518959FB-A0A8-41AA-9C24-8CC997530BA1}
+name: About Us
+master: {00000000-0000-0000-0000-000000000000}
+template: {969DEBCB-DF3B-453F-A534-C69B3F9D260A}
+templatekey: Rich Text Section
+created: 20180811T104435Z
+
+----version----
+language: en
+version: 1
+revision: 316dc996-454f-4bdc-9c6d-15e938b6cb4a
+
+----field----
+field: {73D1661E-E50F-4C54-B7B8-7B40DD5DF6DD}
+name: Title
+key: title
+content-length: 8
+
+About Us
+----field----
+field: {3FA75981-BD32-4D40-B329-63B9A6CB58D0}
+name: Description
+key: description
+content-length: 581
+
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180811T104436Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+316dc996-454f-4bdc-9c6d-15e938b6cb4a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180811T104448Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

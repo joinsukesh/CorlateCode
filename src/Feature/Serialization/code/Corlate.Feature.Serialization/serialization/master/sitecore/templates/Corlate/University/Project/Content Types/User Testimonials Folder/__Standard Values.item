@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {FD1A2236-C105-4DED-A496-2F2C8CEA6B38}
+database: master
+path: /sitecore/templates/Corlate/University/Project/Content Types/User Testimonials Folder/__Standard Values
+parent: {C2C06321-D102-4234-A299-16BBA46F4AA0}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {C2C06321-D102-4234-A299-16BBA46F4AA0}
+templatekey: User Testimonials Folder
+created: 20180811T163837Z
+
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 77
+
+{C2C06321-D102-4234-A299-16BBA46F4AA0}|{13460155-D3DA-4922-96EE-E3FAB9E8AA77}
+----version----
+language: en
+version: 1
+revision: 6491e67b-26db-4d97-b4bc-f946ca17cb79
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180811T163837Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+6491e67b-26db-4d97-b4bc-f946ca17cb79
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180811T163904Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

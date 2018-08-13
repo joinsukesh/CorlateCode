@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {BE7D5D7C-AC37-4733-949B-D98CEBD10F9A}
+database: master
+path: /sitecore/templates/Corlate/University/Project/Content Types/Banner Carousel Sources Folder/__Standard Values
+parent: {71CABCDA-1AD9-47FB-BF68-F8E4B16851BA}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {71CABCDA-1AD9-47FB-BF68-F8E4B16851BA}
+templatekey: Banner Carousel Sources Folder
+created: 20180811T094021Z
+
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 77
+
+{71CABCDA-1AD9-47FB-BF68-F8E4B16851BA}|{A83EC6CC-98AB-4400-A43C-1194AC46C8D9}
+----version----
+language: en
+version: 1
+revision: 3d302100-7265-40e0-a201-973dc744548f
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180811T094021Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+3d302100-7265-40e0-a201-973dc744548f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180811T094043Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

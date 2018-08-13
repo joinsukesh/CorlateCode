@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {227BE9D5-AEA1-48B8-B957-5B312422B42A}
+database: master
+path: /sitecore/templates/Corlate/University/Project/Content Types/Facets Sources Folder/__Standard Values
+parent: {6C43C33E-0B3E-489D-BB9C-1631AB5E0CA1}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {6C43C33E-0B3E-489D-BB9C-1631AB5E0CA1}
+templatekey: Facets Sources Folder
+created: 20180811T142513Z
+
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 77
+
+{6C43C33E-0B3E-489D-BB9C-1631AB5E0CA1}|{03720720-785E-41B2-9E74-A40B15182DEE}
+----version----
+language: en
+version: 1
+revision: 3f4b4613-ca5c-4422-b7c6-735784dc0591
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180811T142513Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+3f4b4613-ca5c-4422-b7c6-735784dc0591
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180811T142556Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

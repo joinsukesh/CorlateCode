@@ -1,0 +1,129 @@
+----item----
+version: 1
+id: {21AA7EFD-1609-4C81-8A48-3F970C2C11CB}
+database: master
+path: /sitecore/templates/Corlate/University/Feature/Page Content/Featured Items/Course Details/__Standard Values
+parent: {D0C124E6-AA78-4ABD-848D-EC389BCFC6DA}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {D0C124E6-AA78-4ABD-848D-EC389BCFC6DA}
+templatekey: Course Details
+created: 20180804T071721Z
+
+----version----
+language: en
+version: 1
+revision: 2289cef3-896d-410e-a22d-3442260e757a
+
+----field----
+field: {1A7802E6-4DF6-4685-9F85-A01123326FD2}
+name: Title
+key: title
+content-length: 5
+
+$name
+----field----
+field: {F1576467-F899-41EB-8664-C6B23D09CFF0}
+name: Cost
+key: cost
+content-length: 3
+
+$20
+----field----
+field: {E0065277-AF27-4798-959C-9CBC9232800C}
+name: Duration
+key: duration
+content-length: 13
+
+Per One Month
+----field----
+field: {B684ED39-0D0F-45D2-AD2B-42CC862E9ECF}
+name: Content Heading
+key: content heading
+content-length: 16
+
+About the course
+----field----
+field: {3EEDD79E-02A9-42F8-9712-03CA957DC1EA}
+name: View Course Label
+key: view course label
+content-length: 11
+
+View Course
+----field----
+field: {D241503A-E839-43F8-8CD9-D2133BA4D116}
+name: Timetable Column1 Label
+key: timetable column1 label
+content-length: 12
+
+Course title
+----field----
+field: {F8425506-D160-477C-A52D-B99E103975A8}
+name: Timetable Column2 Label
+key: timetable column2 label
+content-length: 10
+
+Instructor
+----field----
+field: {0FA9AD3E-BEA2-4C1A-8208-3A90F3C48281}
+name: Timetable Column3 Label
+key: timetable column3 label
+content-length: 6
+
+Timing
+----field----
+field: {FDBF2114-E239-4B94-AAD9-BB39AD238811}
+name: More Courses Section Label
+key: more courses section label
+content-length: 12
+
+More courses
+----field----
+field: {A595A873-D821-4167-92D7-34B4CEE544DE}
+name: Is Active
+key: is active
+content-length: 1
+
+1
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180804T071722Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+2289cef3-896d-410e-a22d-3442260e757a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180804T091158Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

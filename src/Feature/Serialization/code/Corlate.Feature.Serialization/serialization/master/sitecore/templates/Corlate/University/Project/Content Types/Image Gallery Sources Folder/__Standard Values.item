@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {E8B8A5D8-15E1-4F65-AE91-E58EB78122D4}
+database: master
+path: /sitecore/templates/Corlate/University/Project/Content Types/Image Gallery Sources Folder/__Standard Values
+parent: {1E3C923C-D12F-4CA0-A619-F9A638019789}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {1E3C923C-D12F-4CA0-A619-F9A638019789}
+templatekey: Image Gallery Sources Folder
+created: 20180802T052623Z
+
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 77
+
+{1E3C923C-D12F-4CA0-A619-F9A638019789}|{CAAA5AE5-5529-4F47-98E7-D8A8880F718A}
+----version----
+language: en
+version: 1
+revision: 14e07409-8b1f-4269-8837-6fa4fec9bc96
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180802T052623Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+14e07409-8b1f-4269-8837-6fa4fec9bc96
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180802T052645Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

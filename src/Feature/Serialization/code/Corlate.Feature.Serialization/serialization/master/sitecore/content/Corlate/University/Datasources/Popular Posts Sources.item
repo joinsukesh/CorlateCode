@@ -1,0 +1,45 @@
+----item----
+version: 1
+id: {A8F224BA-01A5-4523-BEA6-38542FEC5ADE}
+database: master
+path: /sitecore/content/Corlate/University/Datasources/Popular Posts Sources
+parent: {720D8291-6770-43A8-AF3B-7CBA8C48B366}
+name: Popular Posts Sources
+master: {00000000-0000-0000-0000-000000000000}
+template: {9CF9598D-DCF3-42FD-BBF7-A6318A2432DF}
+templatekey: Popular Posts Sources Folder
+created: 20180809T100354Z
+
+----version----
+language: en
+version: 1
+revision: ce61a8f0-34e4-4780-894f-1bb6469fdcb8
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180809T100354Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ce61a8f0-34e4-4780-894f-1bb6469fdcb8
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180809T100354Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

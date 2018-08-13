@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {E54B1A94-D95F-4E3B-BB20-1A47BA2DD60C}
+database: master
+path: /sitecore/content/Corlate/University/Datasources/Facets Sources/Why Us
+parent: {94CF0920-1178-4294-8D70-7FDCBF829040}
+name: Why Us
+master: {00000000-0000-0000-0000-000000000000}
+template: {03720720-785E-41B2-9E74-A40B15182DEE}
+templatekey: Facets Source
+created: 20180811T142651Z
+
+----version----
+language: en
+version: 1
+revision: e65c3382-89d3-4b55-bf04-dc685829fecd
+
+----field----
+field: {35C94A43-9952-4EF1-B954-54E94F969052}
+name: Title
+key: title
+content-length: 6
+
+Why Us
+----field----
+field: {E78C76A5-9381-4A7F-BFCA-F68829EA3D43}
+name: Facets
+key: facets
+content-length: 155
+
+{27045C01-43FA-49A4-A855-7207E2B08AE7}|{530A4356-7FBE-4518-9F28-AF5A6B071E2A}|{20798996-8FD6-44C1-A3CE-71F57146EC1C}|{F33876A5-EECB-4C5D-BEF9-25A1C1259707}
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180811T142651Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+e65c3382-89d3-4b55-bf04-dc685829fecd
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180811T142703Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

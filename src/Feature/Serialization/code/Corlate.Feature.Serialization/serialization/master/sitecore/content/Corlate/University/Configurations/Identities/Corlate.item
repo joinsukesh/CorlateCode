@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {A5CE3CC8-8C70-4D0C-8086-3AC8E9060E1F}
+database: master
+path: /sitecore/content/Corlate/University/Configurations/Identities/Corlate
+parent: {F7102046-C2C7-451A-A9FF-0BEFB00E4B4A}
+name: Corlate
+master: {00000000-0000-0000-0000-000000000000}
+template: {85B2FC09-5FDC-4773-A980-F7AC334607E0}
+templatekey: Identity
+created: 20171211T094107Z
+
+----field----
+field: {69CF435E-CEE4-471A-B9C0-72F0B9CA1C3D}
+name: Favicon
+key: favicon
+content-length: 163
+
+<image mediapath="" alt="corlate" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="" mediaid="{93B886C2-A7DA-4BD5-933C-1640B2F0C01F}" />
+----version----
+language: en
+version: 1
+revision: dc52846c-092a-4b3d-99f9-0f1aa64bfbdd
+
+----field----
+field: {D6F4E247-28E6-4844-B8F0-227E4FE31E5D}
+name: Logo Title
+key: logo title
+content-length: 7
+
+CORLATE
+----field----
+field: {F32647C7-1BB4-4E94-892C-DEA2A0F55C8E}
+name: Footer Copyright Text
+key: footer copyright text
+content-length: 49
+
+<p>&nbsp;Copyright &copy; All Rights Reserved</p>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171211T094107Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+dc52846c-092a-4b3d-99f9-0f1aa64bfbdd
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180802T114718Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

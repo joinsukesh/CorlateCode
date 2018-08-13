@@ -1,0 +1,78 @@
+----item----
+version: 1
+id: {5B096E1E-0244-4B55-ADA5-8837CB38C72F}
+database: master
+path: /sitecore/content/Corlate/University/Datasources/Contact Us Form Sources/Demo
+parent: {6FE65354-BE63-4D3D-8691-58B0A777253F}
+name: Demo
+master: {00000000-0000-0000-0000-000000000000}
+template: {DDC46D14-1B08-4B49-AB51-B478A70290AC}
+templatekey: Contact Us Form Source
+created: 20180813T042612Z
+
+----version----
+language: en
+version: 1
+revision: f864a4c2-7a81-4282-a2aa-3c791764a11a
+
+----field----
+field: {C7F614D5-34E3-4A39-8147-E9BCCB750CE9}
+name: Title
+key: title
+content-length: 14
+
+We are Corlate
+----field----
+field: {CFBD6A18-A07E-43C4-9E1F-ED9423C74107}
+name: Description
+key: description
+content-length: 251
+
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+----field----
+field: {DC213AC9-4093-4657-9CB6-1B30E49A6627}
+name: Address
+key: address
+content-length: 290
+
+<h3>Address</h3>
+                        <div class="address_group">
+                            <p>200 Lincoln Ave, Salinas, CA 93901</p>
+                            <p>Phone: 662-807-9585</p>
+                            <p>Email:contact@corlate.com</p>
+                        </div>
+----field----
+field: {523ADD67-822B-47F1-A885-3BA744214B9F}
+name: Social Network Links
+key: social network links
+content-length: 194
+
+{064D56DB-756A-4319-A4AA-555C96124B28}|{8265D0A3-2235-44C8-B626-801AFEC664C3}|{DE861D33-934A-48D8-AB51-3C556EFEF7AC}|{43FCC0E0-435D-44ED-A240-A0C8D30C5100}|{C67F097C-1324-4F98-9408-6DC29B525A24}
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180813T042613Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f864a4c2-7a81-4282-a2aa-3c791764a11a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180813T042735Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin
