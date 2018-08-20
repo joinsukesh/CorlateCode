@@ -103,7 +103,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Config\Include\University\Common\University_SiteDefinition.config">
+    <Content Include="App_Config\Include\Corlate\University\Foundation\Common\University_SiteDefinition.config">
       <SubType>Designer</SubType>
     </Content>
     <None Include="Properties\PublishProfiles\Local.pubxml" />
