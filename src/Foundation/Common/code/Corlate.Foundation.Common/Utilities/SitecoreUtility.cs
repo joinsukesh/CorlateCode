@@ -336,11 +336,9 @@
                 string databaseName = Sitecore.Context.Database.Name.ToLower();
                 // getting all linked Items that refer to the Item
                 List<ItemLink> itemLinks = Globals.LinkDatabase.GetReferrers(contextItem).Where(x => x.SourceDatabaseName.ToLower() == databaseName).ToList();
-                //ItemLink[] itemLinksarr = Globals.LinkDatabase.GetReferrers(contextItem);
+                
                 if (itemLinks != null && itemLinks.Count > 0)
                 {
-                    //ArrayList items = new ArrayList(itemLinks.Length);
-
                     foreach (ItemLink itemLink in itemLinks)
                     {
                         Item linkItem = GetItem(itemLink.SourceItemID);
@@ -487,6 +485,11 @@
             return newItem;
         }
 
+        /// <summary>
+        /// generate a random string
+        /// </summary>
+        /// <param name="randomNumberLength"></param>
+        /// <returns></returns>
         public static string GenerateRandomNumber(int randomNumberLength)
         {
 
@@ -514,8 +517,7 @@
             for (int i = 0; i < System.Convert.ToInt32(randomNumberLength); i++)
             {
                 temp = arr[rand.Next(0, arr.Length)];
-                NewPassword += temp;
-                //NewPassword = IDString;
+                NewPassword += temp;                
             }
 
             return NewPassword;

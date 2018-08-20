@@ -44,6 +44,7 @@ namespace Corlate.Feature.Navigation.Models
         }
 
         public List<NavigationItem> SubmenuItems { get; set; }
+
         /// <summary>
         /// Checks if the menu item in top menu is for the current page
         /// </summary>

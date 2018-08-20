@@ -115,9 +115,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\..\..\..\Foundation\Common\code\Corlate.Foundation.Common\Corlate.Foundation.Common.csproj">
       <Project>{f4d27e9b-f681-49aa-832d-e0596e65551c}</Project>

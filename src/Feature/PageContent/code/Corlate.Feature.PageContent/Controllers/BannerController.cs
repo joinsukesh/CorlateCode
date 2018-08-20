@@ -58,6 +58,7 @@ namespace Corlate.Feature.PageContent.Controllers
                     }
                     else
                     {
+                        //get all the active carousel slide items selected in the multilist field
                         List<Item> selectedItems = SitecoreUtility.GetSelectedItemsInMultilistField(renderingDatasourceItem, References.Templates.BannerCarouselSource.Fields.Slides)
                             .Where(x => x.Fields[References.Templates.BannerCarouselSlide.Fields.IsActive].Value == "1").ToList();
 

@@ -321,6 +321,15 @@ namespace Corlate.Feature.PageContent.Controllers
             return blog;
         }
 
+        /// <summary>
+        /// get pagewise blog teasers based on the filters like category & tag
+        /// </summary>
+        /// <param name="selectedPage"></param>
+        /// <param name="categoryID"></param>
+        /// <param name="tagID"></param>
+        /// <param name="blogArchivePageItemID"></param>
+        /// <param name="totalPages"></param>
+        /// <returns></returns>
         private List<Blog> GetBlogTeasersByFilters(int selectedPage, string categoryID, string tagID, string blogArchivePageItemID,  out int totalPages)
         {
             List<Item> blogPageItems = new List<Item>();
@@ -375,6 +384,12 @@ namespace Corlate.Feature.PageContent.Controllers
             return blogsByPage;
         }
 
+        /// <summary>
+        /// get the pagination details
+        /// </summary>
+        /// <param name="selectedPage"></param>
+        /// <param name="totalPages"></param>
+        /// <returns></returns>
         private Pagination GetPagination(int selectedPage, int totalPages)
         {
             Pagination pagination = new Pagination();

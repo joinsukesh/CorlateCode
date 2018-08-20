@@ -10,17 +10,6 @@
         }
 
         /// <summary>
-        /// Gets the TitleID
-        /// </summary>
-        public string TitleID
-        {
-            get
-            {
-                return References.Templates.Metadata.Fields.Title.ToString();
-            }
-        }
-
-        /// <summary>
         /// Gets the Title
         /// </summary>
         public string Title
@@ -32,17 +21,6 @@
         }
 
         /// <summary>
-        /// Gets the DescriptionID
-        /// </summary>
-        public string DescriptionID
-        {
-            get
-            {
-                return References.Templates.Metadata.Fields.Description.ToString();
-            }
-        }
-
-        /// <summary>
         /// Gets the Description
         /// </summary>
         public string Description
@@ -50,17 +28,6 @@
             get
             {
                 return InnerItem.Fields[References.Templates.Metadata.Fields.Description].Value;
-            }
-        }
-
-        /// <summary>
-        /// Gets the KeywordsID
-        /// </summary>
-        public string KeywordsID
-        {
-            get
-            {
-                return References.Templates.Metadata.Fields.Keywords.ToString();
             }
         }
 

@@ -117,6 +117,7 @@ namespace Corlate.Feature.PageContent.Controllers
 
                         if (courseArchivePageItem != null)
                         {
+                            //get all the active course items
                             List<Item> coursePageItems = SitecoreUtility.GetItemsByTemplate(courseArchivePageItem, References.Templates.CourseDetailsPage.ID)
                                 .Where(x => x.Fields[References.Templates.CourseDetails.Fields.IsActive].Value == "1").ToList();
 

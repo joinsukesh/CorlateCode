@@ -62,6 +62,11 @@ namespace Corlate.Feature.PageContent.Controllers
             return View(GlobalConstants.SUBLAYOUTS_PATH + "PageContent/ContactUsForm.cshtml", viewModel);
         }
 
+        /// <summary>
+        /// get the form data and save as an item
+        /// </summary>
+        /// <param name="contactUsFormDataModel"></param>
+        /// <returns></returns>
         [HttpPost]
         public ActionResult SaveContactUsFormData(ContactUsFormData contactUsFormDataModel)
         {
@@ -99,8 +104,5 @@ namespace Corlate.Feature.PageContent.Controllers
 
             return Json(new { Status = statusCode, Message = statusMessage }, JsonRequestBehavior.AllowGet);
         }
-
-
-
     }
 }

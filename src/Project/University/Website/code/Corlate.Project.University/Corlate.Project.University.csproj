@@ -164,10 +164,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Controllers\" />
-    <Folder Include="Models\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\..\..\..\..\Feature\ProjectConfigurations\code\Corlate.Feature.ProjectConfigurations\Corlate.Feature.ProjectConfigurations.csproj">
       <Project>{002a6c5c-7349-4872-9cdf-61e7113e9efa}</Project>
