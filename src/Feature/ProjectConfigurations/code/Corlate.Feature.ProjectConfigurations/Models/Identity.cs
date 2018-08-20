@@ -13,17 +13,6 @@ namespace Corlate.Feature.ProjectConfigurations.Models
         }
 
         /// <summary>
-        /// Gets the LogoTitleID
-        /// </summary>
-        public string LogoTitleID
-        {
-            get
-            {
-                return References.Templates.Identity.Fields.LogoTitle.ToString();
-            }
-        }
-
-        /// <summary>
         /// Gets the LogoTitle
         /// </summary>
         public string LogoTitle
@@ -31,17 +20,6 @@ namespace Corlate.Feature.ProjectConfigurations.Models
             get
             {
                 return InnerItem.Fields[References.Templates.Identity.Fields.LogoTitle].Value;
-            }
-        }
-
-        /// <summary>
-        /// Gets the LogoTargetURLID
-        /// </summary>
-        public string LogoTargetURLID
-        {
-            get
-            {
-                return References.Templates.Identity.Fields.LogoTargetURL.ToString();
             }
         }
 
@@ -64,17 +42,6 @@ namespace Corlate.Feature.ProjectConfigurations.Models
             get
             {
                 return References.Templates.Identity.Fields.FooterCopyrightText.ToString();
-            }
-        }
-
-        /// <summary>
-        /// Gets the FooterCopyrightText
-        /// </summary>
-        public string FooterCopyrightText
-        {
-            get
-            {
-                return InnerItem.Fields[References.Templates.Identity.Fields.FooterCopyrightText].Value;
             }
         }
 
