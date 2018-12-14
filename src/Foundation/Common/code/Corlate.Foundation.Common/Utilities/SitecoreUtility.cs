@@ -15,6 +15,7 @@
     using System.Collections;
     using System.Collections.Generic;
     using System.Linq;
+    using System.Text;
     using System.Web;
 
     /// <summary>
@@ -263,34 +264,38 @@
         {
             List<Item> itemsByTemplate = new List<Item>();
 
+            Item[] childItemsByTemplateID = null;
+
             if (parentItem != null && IsValidID(templateID))
             {
-                List<ID> usages = new List<ID>();
-                TemplateItem selectedTemplateItem = Sitecore.Context.Database.GetItem(templateID);
+                //if the item path is like - /sitecore/content/home-page, 
+                //then the correct xpath query will be /sitecore/content/#home-page#
+                string[] nodes = parentItem.Paths.FullPath.Split('/');
 
-                if (checkBaseTemplates)
+                if (nodes != null && nodes.Length > 0)
                 {
-                    itemsByTemplate = parentItem.Axes.GetDescendants().Where(x => x.TemplateID == templateID ||
-                    x.Template.BaseTemplates.Any(b => b.ID == templateID)).ToList();
-                }
-                else
-                {
-                    IEnumerable<ID> usageIDs = selectedTemplateItem.GetUsageIDs();
-                    usages = usageIDs != null && usageIDs.Count() > 0 ? usageIDs.ToList() : null;
+                    StringBuilder itemPath = new StringBuilder();
 
-                    if (usages != null && usages.Count > 0)
+                    foreach (string itemName in nodes)
                     {
-                        foreach (ID usage in usages)
+                        if (itemName.Contains("-") || itemName.Contains("and") || itemName.Contains("or"))
                         {
-                            Item item = selectedTemplateItem.Database.GetItem(usage);
-
-                            if (item != null && parentItem.Axes.IsAncestorOf(item))
-                            {
-                                itemsByTemplate.Add(item);
-                            }
+                            itemPath.Append("/#" + itemName + "#");
+                        }
+                        else
+                        {
+                            itemPath.Append("/" + itemName);
                         }
                     }
+
+                    string query = "" + System.Convert.ToString(itemPath).TrimEnd('/') + "//*[@@templateid='" + templateID + "']";
+                    childItemsByTemplateID = Sitecore.Context.Database.SelectItems(query);
                 }
+            }
+
+            if (childItemsByTemplateID != null && childItemsByTemplateID.Length > 0)
+            {
+                itemsByTemplate = childItemsByTemplateID.ToList();
             }
 
             return itemsByTemplate;
