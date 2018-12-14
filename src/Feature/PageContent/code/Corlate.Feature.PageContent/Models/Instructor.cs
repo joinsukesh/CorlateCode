@@ -23,6 +23,14 @@ namespace Corlate.Feature.PageContent.Models
             }
         }
 
+        public string InstructorName
+        {
+            get
+            {
+                return InnerItem.Fields[References.Templates.Instructor.Fields.InstructorName].Value;
+            }
+        }
+
         public string DesignationID
         {
             get

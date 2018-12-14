@@ -67,7 +67,7 @@
                                                 <td>
                                                     @if (!string.IsNullOrEmpty(timetableEvent.SelectedInstructorItemID))
                                                     {
-                                                        @Html.Sitecore().Field(timetableEvent.CourseTitleID, timetableEvent.InnerItem)
+                                                        @timetableEvent.Instructor.InstructorName
                                                     }
                                                 </td>
                                                 <td>@Html.Sitecore().Field(timetableEvent.TimingID, timetableEvent.InnerItem)</td>
