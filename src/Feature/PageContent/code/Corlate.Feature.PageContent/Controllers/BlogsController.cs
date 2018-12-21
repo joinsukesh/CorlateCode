@@ -170,7 +170,7 @@ namespace Corlate.Feature.PageContent.Controllers
                 int selectedPage = Sitecore.MainUtil.GetInt(page, 1);
                 viewModel.SelectedCategoryID = cat;
                 viewModel.SelectedTagID = tag;
-                viewModel.BlogArchivePageItemID = SitecoreUtility.GetRenderingParameters(References.Templates.BlogArchiveSettings.ID, References.Templates.BlogArchiveSettings.Fields.BlogArchivePage);
+                viewModel.BlogArchivePageItemID = System.Convert.ToString(Sitecore.Context.Item.ID);
                 viewModel.BlogTeasers = GetBlogTeasersByFilters(selectedPage, cat, tag, viewModel.BlogArchivePageItemID, out totalPages);
                 viewModel.Pagination = GetPagination(selectedPage, totalPages);
             }
