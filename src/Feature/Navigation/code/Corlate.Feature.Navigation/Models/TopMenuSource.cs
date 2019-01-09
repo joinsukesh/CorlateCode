@@ -1,8 +1,8 @@
 ﻿  
 namespace Corlate.Feature.Navigation.Models
 {
-    using Foundation.Common.Utilities;
-    using ProjectConfigurations.Models;
+    using Corlate.Foundation.Common.Utilities;
+    using Corlate.Feature.ProjectConfigurations.Models;
     using Sitecore.Data;
     using Sitecore.Data.Items;
     using System;
